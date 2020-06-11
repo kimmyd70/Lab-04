@@ -1,0 +1,66 @@
+/* State changes for screen 768-960 and larger */
+
+@media screen and (min-width: 768px){
+
+    .block {
+        height: 250px;
+    }
+
+        
+    body, header, section,footer {
+        color: black
+    }
+
+    /* main {
+        width: 962px;
+    } */
+
+    header {
+        height: 100px;
+    }
+    
+    aside {
+        /* float: left;
+        width: 200px; */
+        height: 600px;
+    }
+        
+    #b-c-d{
+        display: grid;
+        /* width: 380px; */
+        height: 200px;
+    }
+
+    #b {
+        width: 200px;
+    }
+
+    #c, #d {
+        display: grid;
+       width: 240px;
+    }
+
+
+    /* #d ::after {
+        clear: left;
+    } */
+
+    #blocks {
+        /* width: 960px; */
+        height: 250px;
+    }
+
+    /* #h {
+        width: 190px;
+    } */
+    footer {
+        /* float: right; */
+        /* width: 760px; */
+        height: 150px;
+        margin-top: 100px;
+        margin-bottom: 2em;
+
+    }
+
+
+};

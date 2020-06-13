@@ -20,9 +20,12 @@ aside {
 
 .block {
     
-    /* float: left; */
     width: 240px;
     height: 250px;
+}
+
+#e{
+   float:left;
 }
 
 footer {
@@ -41,4 +44,5 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: 1fr;
+    width: 100%;
   }

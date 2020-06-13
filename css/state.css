@@ -27,7 +27,7 @@
         
     #b-c-d{
         display: grid;
-        /* width: 380px; */
+
         height: 200px;
     }
 
@@ -35,18 +35,18 @@
         width: 200px;
     }
 
-    #c, #d {
+    /* #c, #d {
         display: grid;
-       width: 240px;
     }
 
 
     /* #d ::after {
         clear: left;
     } */
-
+ */
     #blocks {
-        /* width: 960px; */
+        
+        width: 960px;
         height: 250px;
     }
 

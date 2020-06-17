@@ -9,7 +9,10 @@ header, section, #blocks, aside{
     height: 100%;
 }
 
-
+p{
+    text-align: center;
+    align-self: center;
+}
 
 .b-grid-container {
     display: grid;
@@ -29,15 +32,13 @@ header, section, #blocks, aside{
 .block-grid-container {
     display: grid;
     grid-template-columns: repeat(4, 50%);
-    grid-template-rows: 20% 40% 20%;
-    justify-items: right;
+    grid-template-rows: 2.5fr;
 }
 
 
-.footer-grid-container {
+  .footer-grid-container {
     display: grid;
-    grid-template-columns: auto 80%;
+    width: 200%;
+    grid-template-rows: 1.5fr;
 
   }
-
-

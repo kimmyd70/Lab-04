@@ -1,66 +1,40 @@
 /* State changes for screen 768-960 and larger */
 
 @media screen and (min-width: 768px){
-
-    .block {
-        height: 250px;
-    }
-
-        
-    body, header, section,footer {
-        color: black
-    }
-
-    /* main {
-        width: 962px;
-    } */
-
-    header {
-        height: 100px;
-    }
     
-    aside {
-        /* float: left;
-        width: 200px; */
-        height: 600px;
-    }
-        
     #b-c-d{
         display: grid;
-        /* width: 380px; */
-        height: 200px;
-    }
-
-    #b {
-        width: 200px;
-    }
-
-    #c, #d {
-        display: grid;
-       width: 240px;
-    }
-
-
-    /* #d ::after {
-        clear: left;
-    } */
-
-    #blocks {
-        /* width: 960px; */
-        height: 250px;
-    }
-
-    /* #h {
-        width: 190px;
-    } */
-    footer {
-        /* float: right; */
-        /* width: 760px; */
-        height: 150px;
-        margin-top: 150px;
-        margin-bottom: 2em;
+        width: 100%;
+        grid-auto-flow: row;
+        grid-template-rows: 200px 250px 150px;
 
     }
+
+    aside{
+        height: 600px;
+    }
+    
+    .cd-grid-container {
+      display: grid;
+      grid-template-columns:repeat(2, 50%);
+      grid-template-rows: 200px 250px 150px;
+  }
+  
+  
+  .block-grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 50%);
+      grid-template-rows: 250px;
+  }
+  
+  
+    .footer-grid-container {
+      display: grid;
+      width: 200%;
+      grid-template-rows: 150px;
+  
+    }
+
 
 
 };

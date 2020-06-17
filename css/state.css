@@ -2,65 +2,89 @@
 
 @media screen and (min-width: 768px){
 
-    .block {
-        height: 250px;
+    body{
+        margin: 2em;
+   }  
+  
+  header, section, #blocks, aside{
+      display: grid;
+      width: 100%;
+      height: 100%;
+  }
+  
+  p{
+      text-align: center;
+      align-self: center;
+  }
+  
+  .b-grid-container {
+      display: grid;
+      grid-auto-flow: row;
+      grid-template-rows: 2fr 2.5fr 1.5fr;
+      grid-template-columns: 20% auto;
+  }
+  
+  .cd-grid-container {
+      display: grid;
+      grid-template-columns:repeat(2, 50%);
+      grid-template-rows: 2fr 2.5fr 1.5fr;
+      width: 100%;
+  }
+  
+  
+  .block-grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 50%);
+      grid-template-rows: 2.5fr;
+  }
+  
+  
+    .footer-grid-container {
+      display: grid;
+      width: 200%;
+      grid-template-rows: 1.5fr;
+  
     }
 
         
-    body, header, section,footer {
+    /* body, header, section,footer {
         color: black
     }
 
-    /* main {
-        width: 962px;
-    } */
 
     header {
-        height: 100px;
+       display: grid;
+       grid-template-rows: 75px;
     }
     
-    aside {
-        /* float: left;
-        width: 200px; */
-        height: 600px;
-    }
         
     #b-c-d{
         display: grid;
+        grid-template-rows: 150px 125px 125px;
+        width: 500%;
+        grid-auto-flow: column;
 
-        height: 200px;
     }
 
-    #b {
-        width: 200px;
-    }
-
-    /* #c, #d {
+    .cd-grid-container {
         display: grid;
+        grid-template-columns:6fr;
+        grid-template-rows: 125px 125px;
+        width: 100%;
     }
-
-
-    /* #d ::after {
-        clear: left;
-    } */
- */
-    #blocks {
-        
-        /* width: 960px;
-        height: 250px; */
+    
+    .block-grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 250px 250px;
     }
-
-    /* #h {
-        width: 190px;
-    } */
-    footer {
-        /* float: right; */
-        /* width: 760px; */
-        /* height: 150px;
-        margin-top: 150px; */
-        margin-bottom: 2em;
-
-    }
-
+    
+    .footer-grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 80px;
+    
+      }
+     */
 
 };
